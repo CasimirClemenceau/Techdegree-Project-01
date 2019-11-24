@@ -110,6 +110,10 @@ header .profile-image:hover {
   transition: all .5s;
 	}
 
+.card_image {
+  max-width: 85%;  
+}
+  
 .card:hover {
   border-color: #ff99ff;
 }
@@ -153,7 +157,7 @@ footer ul li {
   display: inline-block;
 }
 
-.copyright {
+copyright {
 	color: white;
 	}
 
