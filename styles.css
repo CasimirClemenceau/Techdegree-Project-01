@@ -111,9 +111,10 @@ header .profile-image:hover {
 	}
 
 .card_image {
-  max-width: 85%;  
+  max-width: 95%;
+  margin: auto; 
 }
-  
+
 .card:hover, .card_broad:hover {
   border-color: #F18805;
 }
