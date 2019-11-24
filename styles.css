@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-family: 'Raleway', sans-serif;
   color: #2F7699;
-  background: #2F7699;
+  background: #033860;
 }
 /* Link Styles */
 
@@ -25,7 +25,7 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: #2F7699;
+  background: #033860;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/background_image.jpg') no-repeat top center ;
+  background: url('images/background_image.jpg') no-repeat center 30%;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -114,8 +114,8 @@ header .profile-image:hover {
   max-width: 85%;  
 }
   
-.card:hover {
-  border-color: #ff99ff;
+.card:hover, .card_broad:hover {
+  border-color: #F18805;
 }
 
 ul.skills {
@@ -157,7 +157,7 @@ footer ul li {
   display: inline-block;
 }
 
-copyright {
+.copyright {
 	color: white;
 	}
 
