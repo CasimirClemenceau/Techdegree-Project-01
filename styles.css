@@ -52,7 +52,7 @@ nav {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: #FF7361;
 }
 
 header {
@@ -88,6 +88,7 @@ header .profile-image:hover {
   background-color: #FF7361;
   color: white;
 }
+
 section {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -96,7 +97,11 @@ section {
   background: #fff;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
-  transition: all .5s;
+  transition: all 1.5s ease-in-out;
+}
+
+section:hover, .card_broad:hover {
+  border-color: #FF7361;
 }
 
 ul {
@@ -112,7 +117,7 @@ ul {
   background: #fff;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
-  transition: all .5s;
+  transition: all 1.5s ease-in-out;
 	}
 
 div {
@@ -142,10 +147,6 @@ iframe {
 .card_image {
   max-width: 95%;
   margin: auto; 
-}
-
-.card:hover, .card_broad:hover {
-  border-color: #F18805;
 }
 
 ul.skills {
