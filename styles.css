@@ -69,12 +69,12 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
+  border-radius: 25%;
+  border: 5px solid white;
   transition: all 1.5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(25deg);
+  transform: scale(2.2) rotate(25deg);
 }
 .tag {
   background-color: #FF7361;
@@ -99,6 +99,11 @@ section {
   transition: all .5s;
 }
 
+ul {
+  list-style: circle;
+  line-height: 30px;
+}
+
 .card_broad {
   margin: 30px auto;
   padding: 20px 40px 40px;
@@ -110,15 +115,29 @@ section {
   transition: all .5s;
 	}
 
-diV {
+div {
   overflow: auto;
-  
 }
 
 iframe {
   width: 100%;
-
 }
+
+.video {
+  font-weight: 900;
+}
+
+.unli {
+  font-weight: 700;
+  }
+
+.divider {
+    box-shadow: inset 0 0 0 1000px #CF102D;
+    height: 2px;
+    width: 40px;
+    display: block;
+    margin: 0 0 30px;
+  }
 
 .card_image {
   max-width: 95%;
