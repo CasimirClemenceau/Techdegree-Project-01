@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-family: 'Raleway', sans-serif;
   color: #333333;
-  background: #033860;
+  background: rgba(69, 121, 107, 0.30);
 }
 /* Link Styles */
 
@@ -25,7 +25,7 @@ a:hover {
 
 nav {
   width: 100%;
-  background: #033860;
+  background: #5D7F76;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -38,6 +38,7 @@ nav {
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
+  
 }
 
 .nav .name {
@@ -57,7 +58,7 @@ nav {
 
 header {
   text-align: center;
-  background: url('images/background_image.jpg') no-repeat center 30%;
+  background: url('https://picsum.photos/id/1023/3955/2094') no-repeat center 80%;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -77,16 +78,16 @@ header .profile-image:hover {
   transform: scale(2.2) rotate(25deg);
 }
 .tag {
-  background-color: #FF7361;
-  color: white;
+  background-color: rgba(255, 255, 255, 0.767);
+  color: #202020;
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 } 
 .location {
-  background-color: #FF7361;
-  color: white;
+  background-color: rgba(255, 255, 255, 0.767);
+  color: #202020;
 }
 
 section {
