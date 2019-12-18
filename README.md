@@ -1,2 +1,2 @@
 # Techdegree Project 01
- my personal profile
+ Unit 1 | My personal profile
